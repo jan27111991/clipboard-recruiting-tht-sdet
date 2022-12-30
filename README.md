@@ -4,8 +4,9 @@
 
 ## clipboard-recruiting-tht-sdet
 
-This is a base starter kit framework that you can use to build your tests for the above assignment.
-However, if you are more comfortable with your own tool kit, feel free to use that as well!
+- This frameworks follows page object model design pattern where object repository is created.
+- This helps in instantiating the locators 
+
 
 ## External dependencies
 
@@ -20,9 +21,12 @@ For this project to run, you would need to install below 3 dependencies on your 
 
 ## Getting Started
 
-For easiest way to getting started, extract this project and open it from IntelliJ.
-> Then Do a dry run on test in : test -> java -> TestSandbox class and see if your setup is correct.  
+- For easiest way to getting started, extract this project from git and open it from eclipse
+- Test cases are coded in /*TestSandbox.java*/
+- @FindBy annotation in /*AmazonOR.java*/ aids in locating the elements as per page factory model
+- Dependencies are managed through pom.xml file 
+- Test execution of the code through command line can be run done using the command  => mvn test -DTest=TestSandbox
+- The output can be viewed through console 
 
-Tip: Do remember to update this readme file for anything else that you think needs updating here!
 
 ## Success
