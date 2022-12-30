@@ -2,6 +2,7 @@
 package testCases;
 import amazon.config.EnvFactory;
 import amazon.factories.DriverFactory;
+import amazon.objectrepositories.AmazonOR;
 
 import com.typesafe.config.Config;
 
